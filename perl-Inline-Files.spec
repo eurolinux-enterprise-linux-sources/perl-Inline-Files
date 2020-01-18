@@ -1,6 +1,6 @@
 Name:           perl-Inline-Files
 Version:        0.68
-Release:        5%{?dist}
+Release:        6%{?dist}
 Summary:        Allows for multiple inline files in a single perl file
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -47,6 +47,9 @@ make test
 %{_mandir}/man3/*.3*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.68-6
+- Mass rebuild 2013-12-27
+
 * Thu Nov 15 2012 Petr Šabata <contyk@redhat.com> - 0.68-5
 - Modernize the spec a bit
 - Update the dep list
